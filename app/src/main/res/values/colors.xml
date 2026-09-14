@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand / primary -->
+    <color name="primary">#8A7FDB</color>
+    <color name="primary_light">#EEEDFE</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#FAF9FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#2C2C2A</color>
+    <color name="on_surface_secondary">#5F5E5A</color>
+
+    <!-- BMI category colors (pastel, used on the result bar/labels) -->
+    <color name="bmi_under">#85B7EB</color>
+    <color name="bmi_normal">#97C459</color>
+    <color name="bmi_over">#FAC775</color>
+    <color name="bmi_obese">#F09595</color>
+
+    <!-- Text-on-category (darker shade of each, for readability) -->
+    <color name="bmi_under_text">#185FA5</color>
+    <color name="bmi_normal_text">#3B6D11</color>
+    <color name="bmi_over_text">#854F0B</color>
+    <color name="bmi_obese_text">#A32D2D</color>
+</resources>
