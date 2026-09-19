@@ -22,17 +22,17 @@
 
     <!-- Typography: each maps to our font -->
     <style name="TextAppearance.App.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
-        <item name="fontFamily">@font/poppins</item>
-        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins_extralight</item>
+        <item name="android:fontFamily">@font/poppins_extralight</item>
     </style>
 
     <style name="TextAppearance.App.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
-        <item name="fontFamily">@font/poppins</item>
-        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins_extralight</item>
+        <item name="android:fontFamily">@font/poppins_extralight</item>
     </style>
 
     <style name="TextAppearance.App.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
-        <item name="fontFamily">@font/poppins</item>
-        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins_extralight</item>
+        <item name="android:fontFamily">@font/poppins_extralight</item>
     </style>
 </resources>

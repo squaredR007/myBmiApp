@@ -10,21 +10,23 @@
         android:id="@+id/bmiValueText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_extralight"
+        android:textColor="@color/on_surface"
         android:textSize="56sp"
         android:textStyle="bold"
-        android:textColor="@color/on_surface"
         app:layout_constraintBottom_toTopOf="@id/statusText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
         android:id="@+id/statusText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_extralight"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@id/bmiBar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,23 +48,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
+        android:fontFamily="@font/poppins_extralight"
         android:text="Underweight"
-        android:textSize="12sp"
         android:textColor="@color/on_surface_secondary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/backButton"
         app:layout_constraintStart_toStartOf="@id/bmiBar"
-        app:layout_constraintTop_toBottomOf="@id/bmiBar"
-        app:layout_constraintBottom_toTopOf="@id/backButton" />
+        app:layout_constraintTop_toBottomOf="@id/bmiBar" />
 
     <TextView
         android:id="@+id/maxLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_extralight"
         android:text="Obese"
-        android:textSize="12sp"
         android:textColor="@color/on_surface_secondary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/minLabel"
         app:layout_constraintEnd_toEndOf="@id/bmiBar"
-        app:layout_constraintTop_toTopOf="@id/minLabel"
-        app:layout_constraintBottom_toBottomOf="@id/minLabel" />
+        app:layout_constraintTop_toTopOf="@id/minLabel" />
 
     <Button
         android:id="@+id/backButton"
@@ -70,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:background="#8A7FDB"
+        android:fontFamily="@font/poppins_extralight"
         android:text="Calculate Again"
         android:textColor="#212121"
         android:textSize="16sp"
