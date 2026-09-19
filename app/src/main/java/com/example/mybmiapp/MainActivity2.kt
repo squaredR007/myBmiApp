@@ -13,11 +13,13 @@ class MainActivity2 : ComponentActivity() {
 
         val bmiValueText = findViewById<TextView>(R.id.bmiValueText)
         val statusText = findViewById<TextView>(R.id.statusText)
+        val bmiBar = findViewById<BmiBarView>(R.id.bmiBar)
         val backButton = findViewById<Button>(R.id.backButton)
 
         val bmi = intent.getDoubleExtra("BMI", 0.0)
 
         bmiValueText.text = String.format("%.1f", bmi)
+        bmiBar.setBmi(bmi.toFloat())
 
         val (status, color) = getStatusAndColor(bmi)
         statusText.text = status
