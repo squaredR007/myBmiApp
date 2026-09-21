@@ -73,16 +73,6 @@ app/src/main/
         └── poppins*.xml        # Poppins typeface
 ```
 
-## 🗺️ Roadmap
-
-This project is being actively developed in phases. Planned additions:
-
-- [ ] Animated BMI reveal (counting number + animated gauge marker)
-- [ ] BMI history tracking with local storage (Room database)
-- [ ] Trend chart of BMI over time
-- [ ] Refined dark mode palette
-- [ ] Unit tests for BMI calculation logic
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
