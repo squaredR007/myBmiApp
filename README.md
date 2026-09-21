@@ -52,6 +52,9 @@ git clone https://github.com/<your-username>/<your-repo-name>.git
 2. Let Gradle sync finish
 3. Run the app on an emulator or connected device
 
+OR :
+You can install it as an APK file named "app-release.apk" from app\release\app-release.apk
+
 ## 📂 Project Structure
 
 ```
